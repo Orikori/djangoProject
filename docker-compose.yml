@@ -32,3 +32,5 @@ services:
       - posgresdb
     ports:
       - "80:80"
+    volumes:
+      - ./static/:/static
